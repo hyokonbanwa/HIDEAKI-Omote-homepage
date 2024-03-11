@@ -1,9 +1,9 @@
 ---
 slug: 5
-title: Docusaurusを使ったブログ作成
+title: Docusaurusを使ったブログ作成3()
 authors: [slorber, yangshun]
 tags: [MDX, React, docusaurus]
-date: 2024-03-10T13:00
+date: 2024-03-10T15:00
 ---
 
 **Docusaurus**を使用したのは記事を簡単に管理できてReactの練習にもなってたまたま目についたから

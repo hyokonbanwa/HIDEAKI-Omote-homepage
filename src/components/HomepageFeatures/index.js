@@ -12,7 +12,7 @@ const recentBlog = recentPosts.items.slice(0, 5).map((item, index) => (
     </Link>
 ));
 
-const allPosts = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/hideaki-omote-homepage-build-blog-archive-df1.json");
+const allPosts = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/hideaki-omote-homepage-blog-archive-a00.json");
 
 const researchBlog = allPosts.blogPosts
     .filter((item) => item.metadata.tags.map((tag) => tag.label).includes("research"))
