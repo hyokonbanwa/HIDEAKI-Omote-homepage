@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "ホーム",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "表 英輝のホームページのロゴ",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.プロフィール": {
+    "message": "プロフィール",
+    "description": "Navbar item with label プロフィール"
+  },
+  "item.label.ブログ": {
+    "message": "ブログ",
+    "description": "Navbar item with label ブログ"
+  },
+  "item.label.研究": {
+    "message": "研究",
+    "description": "Navbar item with label 研究"
+  },
+  "item.label.Labbase": {
+    "message": "Labbase",
+    "description": "Navbar item with label Labbase"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.加藤研究室": {
+    "message": "加藤研究室",
+    "description": "Navbar item with label 加藤研究室"
+  }
+}

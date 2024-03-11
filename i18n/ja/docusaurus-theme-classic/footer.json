@@ -1,0 +1,46 @@
+{
+  "link.title.所属": {
+    "message": "所属",
+    "description": "The title of the footer links column with title=所属 in the footer"
+  },
+  "link.title.アカウント": {
+    "message": "アカウント",
+    "description": "The title of the footer links column with title=アカウント in the footer"
+  },
+  "link.item.label.岐阜大学 加藤研究室": {
+    "message": "岐阜大学 加藤研究室",
+    "description": "The label of footer link with label=岐阜大学 加藤研究室 linking to https://stackoverflow.com/questions/tagged/docusaurus"
+  },
+  "link.item.label.Labbase": {
+    "message": "Labbase",
+    "description": "The label of footer link with label=Labbase linking to https://github.com/facebook/docusaurus"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 - 2024 Hideaki OMOTE, Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "link.title.コンテンツ": {
+    "message": "コンテンツ",
+    "description": "The title of the footer links column with title=コンテンツ in the footer"
+  },
+  "link.item.label.プロフィール・ニュース": {
+    "message": "プロフィール・ニュース",
+    "description": "The label of footer link with label=プロフィール・ニュース linking to /profile"
+  },
+  "link.item.label.ブログ": {
+    "message": "ブログ",
+    "description": "The label of footer link with label=ブログ linking to /blog"
+  },
+  "link.item.label.研究": {
+    "message": "研究",
+    "description": "The label of footer link with label=研究 linking to /blog/tags/research"
+  },
+  "link.item.label.お問い合わせ": {
+    "message": "お問い合わせ",
+    "description": "The label of footer link with label=お問い合わせ linking to mailto:omote@cv.info.gifu-u.ac.jp"
+  }
+}
