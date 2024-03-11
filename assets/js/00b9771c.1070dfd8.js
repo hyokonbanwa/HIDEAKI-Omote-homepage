@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhideaki_omote_homepage=self.webpackChunkhideaki_omote_homepage||[]).push([[5226],{1256:e=>{e.exports=JSON.parse('{"label":"MDX","permalink":"/HIDEAKI-Omote-homepage/build/blog/tags/mdx","allTagsPath":"/HIDEAKI-Omote-homepage/build/blog/tags","count":3,"unlisted":false}')}}]);
