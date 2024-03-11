@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhideaki_omote_homepage=self.webpackChunkhideaki_omote_homepage||[]).push([[7289],{1662:e=>{e.exports=JSON.parse('{"permalink":"/HIDEAKI-Omote-homepage/build/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":9,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

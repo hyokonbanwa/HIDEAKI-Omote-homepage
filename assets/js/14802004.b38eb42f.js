@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhideaki_omote_homepage=self.webpackChunkhideaki_omote_homepage||[]).push([[4098],{4238:e=>{e.exports=JSON.parse('{"permalink":"/HIDEAKI-Omote-homepage/build/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
