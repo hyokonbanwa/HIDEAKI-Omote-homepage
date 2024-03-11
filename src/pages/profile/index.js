@@ -14,6 +14,7 @@ import HomepageFeatures from "@site/src/components/ProfileFeatures";
 
 import Heading from "@theme/Heading";
 import styles from "../index.module.css";
+import metadata from "@site/static/metadata";
 
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -33,9 +34,9 @@ function HomepageHeader() {
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
             <div className="container">
                 <Heading as="h1" className="hero__title">
-                    {"表 英輝"}
+                    {metadata.title}
                 </Heading>
-                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <p className="hero__subtitle">{metadata.subtitle}</p>
 
                 <p onClick={mailClick} onMouseEnter={mailEnter} onMouseLeave={mailLeave}>
                     <FontAwesomeIcon icon={faEnvelope} size="lg" />

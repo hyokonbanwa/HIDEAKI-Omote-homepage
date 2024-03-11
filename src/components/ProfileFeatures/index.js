@@ -69,9 +69,8 @@ export default function ProfileFeatures() {
                         <li>研究内容：マルチモーダルモデル</li>
                         <ul>
                             <li>
-                                <Link to={"/blog/2"}>画像</Link>
+                                <Link to={"/blog/2024/03/11/2"}>画像</Link>
                             </li>
-                            <li>音声</li>
                             <li>テキスト</li>
                         </ul>
                     </ul>
@@ -89,7 +88,7 @@ export default function ProfileFeatures() {
 
             <SkillList />
 
-            <section id="my-news" className={styles.features}>
+            <section id="news" className={styles.features}>
                 <div className="container">
                     <h1 className="row padding-bottom--md">ニュース一覧</h1>
                     <div>

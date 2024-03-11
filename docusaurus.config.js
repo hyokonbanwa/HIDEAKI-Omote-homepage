@@ -8,9 +8,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "表 英輝",
-    tagline: "岐阜大学 工学部 電気電子・情報工学科 情報コース4年",
+    title: "表 英輝のホームページ",
+    tagline: "岐阜大学　加藤研究室でマルチモーダルモデルの研究をしています。",
     favicon: "img/favicon.ico",
+    noIndex: false,
 
     // Set the production url of your site here
     url: "https://hyokonbanwa.github.io",
@@ -85,18 +86,18 @@ const config = {
                     { to: "/blog/tags/research", label: "研究", position: "left" },
 
                     {
-                        href: "https://github.com/facebook/docusaurus",
+                        href: "http://www.cv.info.gifu-u.ac.jp/index.html",
                         label: "加藤研究室",
                         // html: "<p><img src='img/docusaurus-social-card.jpg' alt='加藤研究室' width='30' height='30'>ラベル</p>",
                         position: "right",
                     },
                     {
                         href: "https://github.com/facebook/docusaurus",
-                        label: "Labbase",
+                        label: "LabBase",
                         position: "right",
                     },
                     {
-                        href: "https://github.com/facebook/docusaurus",
+                        href: "https://github.com/hyokonbanwa",
                         label: "GitHub",
                         position: "right",
                     },
@@ -118,14 +119,18 @@ const config = {
                         title: "コンテンツ",
                         items: [
                             {
-                                label: "プロフィール・ニュース",
+                                label: "ホーム",
+                                to: "/",
+                            },
+                            {
+                                label: "プロフィール",
                                 to: "/profile",
                             },
                             {
-                                label: "ブログ",
-                                to: "/blog",
+                                label: "ニュース",
+                                to: "/profile#news",
                             },
-                            { label: "研究", to: "/blog/tags/research" },
+
                             // {
                             //     label: "Discord",
                             //     href: "https://discordapp.com/invite/docusaurus",
@@ -140,9 +145,15 @@ const config = {
                         // title: " ",
                         items: [
                             {
-                                label: "ホーム",
-                                to: "/",
+                                label: "ブログ",
+                                to: "/blog",
                             },
+                            { label: "研究", to: "/blog/tags/research" },
+                            {
+                                label: "お問い合わせ(メール)",
+                                to: "mailto:omote@cv.info.gifu-u.ac.jp",
+                            },
+
                             // {
                             //     label: "Discord",
                             //     href: "https://discordapp.com/invite/docusaurus",
@@ -158,12 +169,9 @@ const config = {
                         items: [
                             {
                                 label: "岐阜大学 加藤研究室",
-                                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                                href: "http://www.cv.info.gifu-u.ac.jp/contents/members.html",
                             },
-                            {
-                                label: "お問い合わせ",
-                                href: "mailto:omote@cv.info.gifu-u.ac.jp",
-                            },
+
                             // {
                             //     label: "Discord",
                             //     href: "https://discordapp.com/invite/docusaurus",
@@ -183,12 +191,12 @@ const config = {
                             //     to: "/blog",
                             // },
                             {
-                                label: "Labbase",
+                                label: "LabBase",
                                 href: "https://github.com/facebook/docusaurus",
                             },
                             {
                                 label: "GitHub",
-                                href: "https://github.com/facebook/docusaurus",
+                                href: "https://github.com/hyokonbanwa",
                             },
                         ],
                     },

@@ -44,7 +44,7 @@ const FeatureList = [
         Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
         description: <>{newsDescription}</>,
         button: "ニュース一覧",
-        link: "/profile#my-news",
+        link: "/profile#news",
     },
 
     {

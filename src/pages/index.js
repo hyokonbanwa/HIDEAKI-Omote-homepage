@@ -6,6 +6,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
+import metadata from "@site/static/metadata";
 //icon
 
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -27,9 +28,9 @@ function HomepageHeader() {
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
             <div className="container">
                 <Heading as="h1" className="hero__title">
-                    {siteConfig.title}
+                    {metadata.title}
                 </Heading>
-                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <p className="hero__subtitle">{metadata.subtitle}</p>
 
                 <p onClick={mailClick} onMouseEnter={mailEnter} onMouseLeave={mailLeave}>
                     <FontAwesomeIcon icon={faEnvelope} size="lg" />
