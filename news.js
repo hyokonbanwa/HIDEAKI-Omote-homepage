@@ -9,8 +9,8 @@ const news = [
         ),
     },
     {
-        date: "2024-02-01",
-        title: "SSS2023に投稿しました。",
+        date: "2024-02-16",
+        title: "卒論発表を行いました。",
         description: (
             <>
                 into the <code>docs</code>{" "}
@@ -19,7 +19,7 @@ const news = [
     },
     {
         date: "2024-02-01",
-        title: "SSS2023に投稿しました。",
+        title: "ダミー2",
         description: (
             <>
                 into the <code>docs</code>{" "}
@@ -28,7 +28,7 @@ const news = [
     },
     {
         date: "2024-02-01",
-        title: "SSS2023に投稿しました。",
+        title: "ダミー1",
         description: (
             <>
                 into the <code>docs</code>{" "}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhideaki_omote_homepage=self.webpackChunkhideaki_omote_homepage||[]).push([[7488],{9220:e=>{e.exports=JSON.parse('{"permalink":"/HIDEAKI-Omote-homepage/blog/tags/\u5352\u8ad6","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

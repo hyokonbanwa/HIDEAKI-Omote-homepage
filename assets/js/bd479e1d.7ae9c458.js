@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhideaki_omote_homepage=self.webpackChunkhideaki_omote_homepage||[]).push([[807],{6272:e=>{e.exports=JSON.parse('{"label":"Kosmos-2","permalink":"/HIDEAKI-Omote-homepage/blog/tags/kosmos-2","allTagsPath":"/HIDEAKI-Omote-homepage/blog/tags","count":1,"unlisted":false}')}}]);

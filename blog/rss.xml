@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>表 英輝 Blog</title>
+        <title>表 英輝のホームページ Blog</title>
         <link>https://hyokonbanwa.github.io/HIDEAKI-Omote-homepage/blog</link>
-        <description>表 英輝 Blog</description>
-        <lastBuildDate>Sun, 10 Mar 2024 15:00:00 GMT</lastBuildDate>
+        <description>表 英輝のホームページ Blog</description>
+        <lastBuildDate>Mon, 11 Mar 2024 18:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <item>
-            <title><![CDATA[Docusaurusを使ったブログ作成3()]]></title>
+            <title><![CDATA[卒論の研究内容]]></title>
+            <link>https://hyokonbanwa.github.io/HIDEAKI-Omote-homepage/blog/2024/03/11/2</link>
+            <guid>https://hyokonbanwa.github.io/HIDEAKI-Omote-homepage/blog/2024/03/11/2</guid>
+            <pubDate>Mon, 11 Mar 2024 18:00:00 GMT</pubDate>
+            <description><![CDATA[卒論ではKosmos-2というマルチモーダルモデル(MLLM)を使用してChain of thoughtと物体領域による説明性の実現を目指しました。]]></description>
+            <content:encoded><![CDATA[<p>卒論では<strong>Kosmos-2</strong>というマルチモーダルモデル(MLLM)を使用して<strong>Chain of thought</strong>と<strong>物体領域</strong>による説明性の実現を目指しました。</p>]]></content:encoded>
+            <category>research</category>
+            <category>卒論</category>
+            <category>Kosmos-2</category>
+            <category>VisualCommonsenseReasoning</category>
+        </item>
+        <item>
+            <title><![CDATA[Github Actionを使ってGithub Pagesの更新自動化]]></title>
             <link>https://hyokonbanwa.github.io/HIDEAKI-Omote-homepage/blog/5</link>
             <guid>https://hyokonbanwa.github.io/HIDEAKI-Omote-homepage/blog/5</guid>
             <pubDate>Sun, 10 Mar 2024 15:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurusを使用したのは記事を簡単に管理できてReactの練習にもなってたまたま目についたから]]></description>
-            <content:encoded><![CDATA[<p><strong>Docusaurus</strong>を使用したのは記事を簡単に管理できてReactの練習にもなってたまたま目についたから
-利点　記事の絞り込みがついているので研究タブを簡単に作れた</p>]]></content:encoded>
-            <category>MDX</category>
-            <category>React</category>
+            <description><![CDATA[このブログはGithub Actionsでプッシュするだけで変更がGithub Pagesに反映されます。]]></description>
+            <content:encoded><![CDATA[<p>このブログは<strong>Github Actions</strong>でプッシュするだけで変更が<strong>Github Pages</strong>に反映されます。</p>]]></content:encoded>
+            <category>GithubPages</category>
+            <category>GithubActions</category>
             <category>docusaurus</category>
         </item>
         <item>
