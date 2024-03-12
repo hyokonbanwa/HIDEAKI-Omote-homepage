@@ -5,7 +5,7 @@ import { faPython, faJs, faGithub, faUnity, faDocker } from "@fortawesome/free-b
 const skills = [
     {
         icon: faPython,
-        name: "Pytorch",
+        name: "Python | Pytorch",
         description: [<>Pytorchで研究しました。</>, <>画像認識をしました。</>],
     },
     {
@@ -19,12 +19,12 @@ const skills = [
     {
         icon: faGithub,
         name: "Github",
-        description: [<>Git&Githubは基本的な操作は使えます。</>, <>このサイトはGithub actionsによって自動的に最新のビルド内容が反映されます。</>],
+        description: [<>Git & Githubは基本的な操作は使えます。</>, <>このサイトはGithub actionsによって自動的に最新のビルド内容が反映されます。</>],
     },
     {
         icon: faUnity,
         name: "Unity",
-        description: [<>AIエージェントを作りました</>],
+        description: [<>Live2Dで動いてChatGPTで答えてくれるAIエージェントを作りました。</>, <>大学の授業でVRでできる滝行体験アプリを作りました。</>],
     },
     {
         icon: faDocker,
