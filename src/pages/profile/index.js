@@ -40,7 +40,7 @@ function HomepageHeader() {
 
                 <p onClick={mailClick} onMouseEnter={mailEnter} onMouseLeave={mailLeave}>
                     <FontAwesomeIcon icon={faEnvelope} size="lg" />
-                    メール：omote@cv.info.gifu-u.ac.jp
+                    &nbsp;メール ：omote@cv.info.gifu-u.ac.jp
                 </p>
 
                 <div className={styles.buttons}>

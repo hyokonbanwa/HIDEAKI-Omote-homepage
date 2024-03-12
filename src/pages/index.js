@@ -35,7 +35,7 @@ function HomepageHeader() {
                 <p onClick={mailClick} onMouseEnter={mailEnter} onMouseLeave={mailLeave}>
                     <FontAwesomeIcon icon={faEnvelope} size="lg" />
                     {/* <FontAwesomeIcon icon={faTwitter} /> */}
-                    メール：omote@cv.info.gifu-u.ac.jp
+                    &nbsp;メール ：omote@cv.info.gifu-u.ac.jp
                 </p>
 
                 {/* <p className="hero__subtitle">岐阜大学加藤研究室でマルチモーダルモデルの研究をしています。</p> */}

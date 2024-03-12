@@ -50,8 +50,10 @@ const config = {
                 //     editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
                 // },
                 blog: {
-                    blogSidebarTitle: "最新の5件",
+                    blogSidebarTitle: "最新の10件",
+                    blogSidebarCount: 10,
                     showReadingTime: true,
+
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     // editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
