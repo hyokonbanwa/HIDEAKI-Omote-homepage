@@ -28,7 +28,7 @@ const news = [
     },
     {
         date: "2024-02-01",
-        title: "ダミー1",
+        title: "ダミー1です。",
         description: (
             <>
                 into the <code>docs</code>{" "}
