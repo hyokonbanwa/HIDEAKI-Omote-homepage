@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "表 英輝のホームページ",
-    tagline: "岐阜大学　加藤研究室でマルチモーダルモデルの研究をしています。",
+    tagline: "岐阜大学工学部加藤研究室で深層学習・マルチモーダルモデルの研究をしている表英輝のホームページです。",
     favicon: "img/favicon.ico",
     noIndex: false,
 

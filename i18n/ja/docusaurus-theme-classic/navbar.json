@@ -19,16 +19,16 @@
     "message": "研究",
     "description": "Navbar item with label 研究"
   },
-  "item.label.Labbase": {
-    "message": "Labbase",
-    "description": "Navbar item with label Labbase"
+  "item.label.加藤研究室": {
+    "message": "加藤研究室",
+    "description": "Navbar item with label 加藤研究室"
+  },
+  "item.label.LabBase": {
+    "message": "LabBase",
+    "description": "Navbar item with label LabBase"
   },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
-  },
-  "item.label.加藤研究室": {
-    "message": "加藤研究室",
-    "description": "Navbar item with label 加藤研究室"
   }
 }
