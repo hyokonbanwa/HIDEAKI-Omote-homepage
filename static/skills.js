@@ -1,25 +1,33 @@
 import { faEnvelope, faT } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faPython, faJs, faGithub, faUnity, faDocker } from "@fortawesome/free-brands-svg-icons";
 const skills = [
     {
-        icon: faTwitter,
+        icon: faPython,
         name: "Pytorch",
-        description: [<>Pytorchで研究しました</>, <>画像認識をしました</>],
+        description: [<>Pytorchで研究しました。</>, <>画像認識をしました。</>],
     },
     {
-        icon: faEnvelope,
-        name: "Javascript",
-        description: [<>Webアプリを作りました</>, <>Reactを使いました</>],
+        icon: faJs,
+        name: "JavaScript | TypeScript",
+        description: [
+            <>このホームページはDocusaurusというReactフレームワークで構築しました。</>,
+            <>Javascript(TypeScript)でLive2dを使ったWebアプリを作りました。</>,
+        ],
     },
     {
-        icon: faTwitter,
+        icon: faGithub,
+        name: "Github",
+        description: [<>Git&Githubは基本的な操作は使えます。</>, <>このサイトはGithub actionsによって自動的に最新のビルド内容が反映されます。</>],
+    },
+    {
+        icon: faUnity,
         name: "Unity",
         description: [<>AIエージェントを作りました</>],
     },
     {
-        icon: faTwitter,
+        icon: faDocker,
         name: "Docker",
         description: [<>深層学習用の各PCの環境構築にはDockerを使用します</>],
     },
