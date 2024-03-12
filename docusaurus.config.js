@@ -142,7 +142,7 @@ const config = {
                         ],
                     },
                     {
-                        // title: " ",
+                        title: "　",
                         items: [
                             {
                                 label: "ブログ",
