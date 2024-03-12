@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  build: #jobsのdeployのneedsで参照
     name: Build
     runs-on: ubuntu-latest
     steps:
@@ -21,13 +21,13 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: build
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: build
+    needs: build #jobsの「build」を指定
     permissions:
       pages: write
       id-token: write
