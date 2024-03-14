@@ -13,6 +13,7 @@ const config = {
     favicon: "img/favicon.ico",
     noIndex: false,
 
+    
     // Set the production url of your site here
     url: "https://hyokonbanwa.github.io",
     // Set the /<baseUrl>/ pathname under which your site is served
@@ -68,6 +69,9 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            //Google Search Consoleのタグ認識
+            metadata:[{name:"google-site-verification", content:"E1aPysisryTirXXLRhxU2UV-DlstISShSia06Gvz58g"}],
+
             // Replace with your project's social card
             image: "img/docusaurus-social-card.jpg",
             navbar: {
