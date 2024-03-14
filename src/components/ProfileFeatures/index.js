@@ -5,6 +5,20 @@ import news from "@site/static/news";
 import Link from "@docusaurus/Link";
 import SkillList from "./SkillList";
 
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+
+// import './styles.css';
+
+// import required modules
+import { FreeMode, Pagination } from 'swiper/modules';
+
 // const sortedNews = news.sort(function (a, b) {
 //     return a.date > b.date ? -1 : 1; //オブジェクトの降順ソート
 // });
@@ -87,6 +101,52 @@ export default function ProfileFeatures() {
             </section>
 
             <SkillList />
+
+            <section id="slider" className={styles.features}>
+                <div className="container">
+                <h1 className="row padding-bottom--md">Githubリポジトリ</h1>
+            <Swiper
+        slidesPerView={2}
+        spaceBetween={10}
+        breakpoints={{
+            '@0.75': {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+            '@0.75': {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              '@1.00': {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              '@1.50': {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+        }}
+
+        
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+        <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
+      </Swiper>
+      </div>
+            </section>
 
             <section id="news" className={styles.features}>
                 <div className="container">
