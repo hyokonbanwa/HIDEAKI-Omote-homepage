@@ -98,7 +98,7 @@ const config = {
                         position: "right",
                     },
                     {
-                        href: "https://github.com/facebook/docusaurus",
+                        href: "https://compass.labbase.jp/",
                         label: "LabBase",
                         position: "right",
                     },
@@ -198,7 +198,7 @@ const config = {
                             // },
                             {
                                 label: "LabBase",
-                                href: "https://github.com/facebook/docusaurus",
+                                href: "https://compass.labbase.jp/",
                             },
                             {
                                 label: "GitHub",
