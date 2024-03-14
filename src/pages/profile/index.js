@@ -45,10 +45,10 @@ function HomepageHeader() {
 
                 <div className={styles.buttons}>
                     <Link className="button button--secondary button--lg margin-right--xs col--2" to="/">
-                        　ホーム　
+                        ホーム
                     </Link>
                     <Link className="button button--secondary button--lg margin-left--xs col--2" to="/blog">
-                        　ブログ　
+                        ブログ
                     </Link>
                 </div>
             </div>
