@@ -5,19 +5,19 @@ import news from "@site/static/news";
 import Link from "@docusaurus/Link";
 import SkillList from "./SkillList";
 
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
 
 // import './styles.css';
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode, Pagination } from "swiper/modules";
 
 // const sortedNews = news.sort(function (a, b) {
 //     return a.date > b.date ? -1 : 1; //オブジェクトの降順ソート
@@ -76,16 +76,18 @@ export default function ProfileFeatures() {
         <>
             <section className={styles.features}>
                 <div className="container">
-                    <h1 className="row padding-bottom--md">プロフィール</h1>
+                    <h1 className="row padding-bottom--md padding-top--md">プロフィール</h1>
                     <ul>
                         <li>名前：表 英輝</li>
-                        <li>所属：岐阜大学 加藤研究室</li>
-                        <li>研究内容：マルチモーダルモデル</li>
+                        <li>所属：岐阜大学院　自然科学技術研究科　知能理工学専攻　加藤研究室</li>
+                        <li>学年：修士1年(M1)</li>
+                        <li>研究内容：</li>
                         <ul>
                             <li>
-                                <Link to={"/blog/2024/03/11/2"}>画像</Link>
+                                <Link to={"/blog/2024/03/11/2"}>
+                                    卒業研究「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与」
+                                </Link>
                             </li>
-                            <li>テキスト</li>
                         </ul>
                     </ul>
                 </div>
@@ -95,17 +97,19 @@ export default function ProfileFeatures() {
                 <div className="container">
                     <h1 className="row padding-bottom--md">経歴</h1>
                     <ul>
-                        <li>2019 年岐阜大学入学</li>
+                        <li>2019年4月　岐阜大学　工学部 電気電子・情報工学科　入学</li>
+                        <li>2024年3月　岐阜大学　工学部 電気電子・情報工学科　卒業</li>
+                        <li>2024年4月　岐阜大学　自然科学技術研究科 知能理工学専攻　入学</li>
                     </ul>
                 </div>
             </section>
 
             <SkillList />
 
-            <section id="slider" className={styles.features}>
+            {/* <section id="slider" className={styles.features}>
                 <div className="container">
-                <h1 className="row padding-bottom--md">Githubリポジトリ</h1>
-            <Swiper
+                    <h1 className="row padding-bottom--md">Githubリポジトリ</h1> */}
+            {/* <Swiper
         slidesPerView={2}
         spaceBetween={10}
         breakpoints={{
@@ -144,9 +148,9 @@ export default function ProfileFeatures() {
         <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
         <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
         <SwiperSlide><div className="button button--secondary button--lg padding--xl">Slide 1</div></SwiperSlide>
-      </Swiper>
-      </div>
-            </section>
+      </Swiper> */}
+            {/* </div>
+            </section> */}
 
             <section id="news" className={styles.features}>
                 <div className="container">

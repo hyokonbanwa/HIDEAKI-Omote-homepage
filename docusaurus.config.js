@@ -13,7 +13,6 @@ const config = {
     favicon: "img/favicon.ico",
     noIndex: false,
 
-    
     // Set the production url of your site here
     url: "https://hyokonbanwa.github.io",
     // Set the /<baseUrl>/ pathname under which your site is served
@@ -70,7 +69,7 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             //Google Search Consoleのタグ認識
-            metadata:[{name:"google-site-verification", content:"E1aPysisryTirXXLRhxU2UV-DlstISShSia06Gvz58g"}],
+            metadata: [{ name: "google-site-verification", content: "E1aPysisryTirXXLRhxU2UV-DlstISShSia06Gvz58g" }],
 
             // Replace with your project's social card
             image: "img/docusaurus-social-card.jpg",
@@ -97,11 +96,11 @@ const config = {
                         // html: "<p><img src='img/docusaurus-social-card.jpg' alt='加藤研究室' width='30' height='30'>ラベル</p>",
                         position: "right",
                     },
-                    {
-                        href: "https://compass.labbase.jp/",
-                        label: "LabBase",
-                        position: "right",
-                    },
+                    // {
+                    //     href: "https://compass.labbase.jp/",
+                    //     label: "LabBase",
+                    //     position: "right",
+                    // },
                     {
                         href: "https://github.com/hyokonbanwa",
                         label: "GitHub",
@@ -196,10 +195,10 @@ const config = {
                             //     label: "Blog",
                             //     to: "/blog",
                             // },
-                            {
-                                label: "LabBase",
-                                href: "https://compass.labbase.jp/",
-                            },
+                            // {
+                            //     label: "LabBase",
+                            //     href: "https://compass.labbase.jp/",
+                            // },
                             {
                                 label: "GitHub",
                                 href: "https://github.com/hyokonbanwa",
