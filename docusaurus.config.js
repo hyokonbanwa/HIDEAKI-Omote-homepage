@@ -156,7 +156,7 @@ const config = {
                             { label: "研究", to: "/blog/tags/research" },
                             {
                                 label: "お問い合わせ(メール)",
-                                to: "mailto:omote@cv.info.gifu-u.ac.jp",
+                                to: "mailto:omote.hideaki.s8@s.gifu-u.ac.jp",
                             },
 
                             // {

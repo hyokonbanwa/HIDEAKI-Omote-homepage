@@ -12,10 +12,10 @@ import metadata from "@site/static/metadata";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { config } from "@fortawesome/fontawesome-svg-core"
-import "@fortawesome/fontawesome-svg-core/styles.css"
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
-config.autoAddCss = false
+config.autoAddCss = false;
 
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext();
@@ -27,7 +27,7 @@ function HomepageHeader() {
         e.target.style.cursor = "default";
     };
     const mailClick = (e) => {
-        window.location.href = "mailto:omote@cv.info.gifu-u.ac.jp";
+        window.location.href = "mailto:omote.hideaki.s8@s.gifu-u.ac.jp";
     };
     return (
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -40,7 +40,7 @@ function HomepageHeader() {
                 <p onClick={mailClick} onMouseEnter={mailEnter} onMouseLeave={mailLeave}>
                     <FontAwesomeIcon icon={faEnvelope} size="lg" />
                     {/* <FontAwesomeIcon icon={faTwitter} /> */}
-                    &nbsp;メール ：omote@cv.info.gifu-u.ac.jp
+                    &nbsp;メール ：omote.hideaki.s8@s.gifu-u.ac.jp
                 </p>
 
                 {/* <p className="hero__subtitle">岐阜大学加藤研究室でマルチモーダルモデルの研究をしています。</p> */}
