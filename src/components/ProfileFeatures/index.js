@@ -23,7 +23,11 @@ import { FreeMode, Pagination } from "swiper/modules";
 //     return a.date > b.date ? -1 : 1; //オブジェクトの降順ソート
 // });
 const FeatureList = news.map((news) => ({
-    title: news.date + "：" + news.title,
+    title: (
+        <>
+            {news.date} : {news.title}
+        </>
+    ),
     description: news.description,
 }));
 
