@@ -27,7 +27,7 @@ function HomepageHeader() {
         e.target.style.cursor = "default";
     };
     const mailClick = (e) => {
-        window.location.href = "mailto:omote.hideaki.s8@s.gifu-u.ac.jp";
+        window.location.href = `mailto:${metadata.mail}`;
     };
     return (
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -40,7 +40,7 @@ function HomepageHeader() {
                 <p onClick={mailClick} onMouseEnter={mailEnter} onMouseLeave={mailLeave}>
                     <FontAwesomeIcon icon={faEnvelope} size="lg" />
                     {/* <FontAwesomeIcon icon={faTwitter} /> */}
-                    &nbsp;メール ：omote.hideaki.s8@s.gifu-u.ac.jp
+                    &nbsp;メール ：{metadata.mail}
                 </p>
 
                 {/* <p className="hero__subtitle">岐阜大学加藤研究室でマルチモーダルモデルの研究をしています。</p> */}

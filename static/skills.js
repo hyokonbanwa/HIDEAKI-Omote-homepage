@@ -6,7 +6,7 @@ const skills = [
     {
         icon: faPython,
         name: "Python | Pytorch",
-        description: [<>Pytorchで研究しました。</>, <>画像認識をしました。</>],
+        description: [<>PythonとPytorchを用いて深層学習の研究を行っています。</>],
     },
     {
         icon: faJs,
@@ -25,7 +25,13 @@ const skills = [
     {
         icon: faGithub,
         name: "Github",
-        description: [<>Git & Githubは基本的な操作は使えます。</>, <>このサイトはGithub actionsによって自動的に最新のビルド内容が反映されます。</>],
+        description: [
+            <>Git & Githubは基本的な操作は使えます。</>,
+            <>
+                このサイトはGithub actionsによって自動的に最新のビルド内容が反映されます。設定ファイルは
+                <a href="https://github.com/hyokonbanwa/HIDEAKI-Omote-homepage/blob/main/.github/workflows/deploy.yml">Gitub</a>にあります。
+            </>,
+        ],
     },
     {
         icon: faUnity,
