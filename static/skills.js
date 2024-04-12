@@ -16,9 +16,9 @@ const skills = [
             <>
                 Javascript(TypeScript)でLive2dを使った
                 <a href="https://hyokonbanwa.github.io/hiyori_live2d_voice.github.io/">二次元美少女を動かせるWebアプリ</a>
-                を作りました。こだわった点は音声に応じて口パクする(VOICEVOX利用時のみ)ところです。(VOICEVOXを起動する場合は
+                を作りました。 こだわった点はキャラクターが音声に応じて口パクする(VOICEVOX利用時のみ)ところです。<br></br>VOICEVOXを起動する場合は
                 <a href="https://note.com/natukichan/n/n016bcd171da0">https://note.com/natukichan/n/n016bcd171da0</a>を参考にしていただきCORS Policy
-                Modeをallにする必要があります)
+                Modeをallにする必要があります
             </>,
         ],
     },
