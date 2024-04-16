@@ -142,7 +142,8 @@ export default function ProfileFeatures() {
                         pixi-live2d-displayという描画ライブラリPixiJS上でLive2dキャラクターを動かせるライブラリを使用しました<br></br>
                 こだわった点はキャラクターが音声に応じて口パクする(VOICEVOX利用時のみ)ところです。<br></br>VOICEVOXを起動する場合は
                 <Link to="https://note.com/natukichan/n/n016bcd171da0">なつきちゃん様の記事(https://note.com/natukichan/n/n016bcd171da0)</Link>を参考にしていただきCORS Policy
-                Modeをallにする必要があります</li>
+                Modeをallにする必要があります。<br></br> ソースコード：<Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/IndexLibrary.ts">TypeScritファイル</Link>、<Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/App.ts">HTMLファイル</Link>
+                <br></br>もともと<Link to="https://www.qualtrics.com/jp/">Qualtrics</Link>というアンケートサイトで動かすアプリのひな形として作成したのですが、QusltricsのJavaScriptに対する<Link to="https://community.qualtrics.com/custom-code-12/how-can-i-upload-custom-js-files-to-the-library-so-that-they-can-be-referred-to-the-survey-5527">制限</Link>が多く、CDN経由でビルドしたJSファイルを<Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/quarltrics.js">Qualtrics上で読み込む方式</Link>にしたためとても煩雑なコードとなりました。</li>
                     </ul>
                 </div>
             </section>
