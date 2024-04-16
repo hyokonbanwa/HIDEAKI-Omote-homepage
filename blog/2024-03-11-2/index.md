@@ -7,7 +7,7 @@ date: 2024-03-11T18:00
 
 
 
-　卒論では[**Kosmos-2**](https://arxiv.org/abs/2306.14824)という既存のマルチモーダルモデル(MLLM)を使用して**Chain of thought**と**物体領域**によるマルチモーダルモデルによる説明性の実現を目指しました。
+　卒業研究では[**Kosmos-2**](https://arxiv.org/abs/2306.14824)という既存のマルチモーダルモデル(MLLM)を使用して**Chain of thought**と**物体領域**によるマルチモーダルモデルによる説明性の実現を目指しました。
 
 　マルチモーダルモデルを含むAIモデルにはなぜそのような出力をしたのかわからない**ブラックボックス性**の問題があります。しかし、最近自然言語処理分野でLLMに質問を入力した際、出力となる解答に加え解答に対する根拠となる思考過程を出力する[**Chain of Thought（思考連鎖、CoT)**](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html)という研究が登場しました。私はこのCoTに着目しマルチモーダルモデルでの説明性の実現を卒業研究で目指しました。
 
@@ -17,7 +17,7 @@ date: 2024-03-11T18:00
 ![言語的説明+視覚的説明](./言語的説明+視覚的説明.png)
 
 
-　下記画像のようにマルチモーダルモデルのKosmos-2に画像と質問文と解答選択肢と画像内の物体の領域を入力し、根拠テキストとそれに含まれる物体の領域と解答を出力させることで研究を実現しました。データセットは[**Visual Commonsense Reasoning**](https://openaccess.thecvf.com/content_CVPR_2019/html/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.html)という既存の領域付多選択式質問応答データセットを利用しました。
+　下記画像のようにマルチモーダルモデルのKosmos-2に画像と質問文と解答選択肢と画像内の物体の領域を入力し、根拠テキストとそれに含まれる物体の領域と解答を出力させることで研究のアイデアを実現しました。データセットは[**Visual Commonsense Reasoning**](https://openaccess.thecvf.com/content_CVPR_2019/html/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.html)という既存の領域付多選択式質問応答データセットを利用しました。
 ![VCR-CoTモデルへの入出力](./VCR-CoTモデルへの入出力.png)
 
 

@@ -12,7 +12,7 @@ const SkillList = () => {
     return (
         <section className={styles.features}>
             <div className="container">
-                <h1 className="row padding-bottom--md">スキル</h1>
+                <h1 className="row padding-bottom--md">スキル | Skills</h1>
                 <ul className="pills row">
                     {skills.map((skill, index) => {
                         return (

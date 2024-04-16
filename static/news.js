@@ -1,14 +1,15 @@
+import Link from "@docusaurus/Link";
 const news = [
     {
         date: "2024-03-25",
         title: (
             <>
-                <a href="https://www.eng.gifu-u.ac.jp/topics/2024/04/02.html">学業成績優秀者として表彰されました。</a>
+                <Link to="https://www.eng.gifu-u.ac.jp/topics/2024/04/02.html">学業成績優秀者として表彰されました。</Link>
             </>
         ),
         description: (
             <>
-                <a href="https://www.eng.gifu-u.ac.jp/topics/2024/04/02.html">【表彰】学業成績優秀者表彰式を挙行（令和6年3月25日）</a>
+                <Link to="https://www.eng.gifu-u.ac.jp/topics/2024/04/02.html">【表彰】学業成績優秀者表彰式を挙行（令和6年3月25日）</Link>
                 <br></br>卒業研究を含む学部4年生時代の学業成績を評価され表彰されました。
             </>
         ),
@@ -17,13 +18,13 @@ const news = [
         date: "2024-03-01",
         title: (
             <>
-                <a href="https://confit.atlas.jp/guide/event/ssii2024/top?lang=ja">国内学会SSII2024に卒業論文のテーマで投稿しました。</a>
+                <Link to="https://confit.atlas.jp/guide/event/ssii2024/top?lang=ja">第30回画像センシングシンポジウム(SSII2024)に投稿しました。</Link>
             </>
         ),
         description: (
             <>
-                <a href="https://confit.atlas.jp/guide/event/ssii2024/top?lang=ja">第30回画像センシングシンポジウム</a>に投稿しました。<br></br>
-                テーマは「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与」です。
+                <Link to="https://confit.atlas.jp/guide/event/ssii2024/top?lang=ja">第30回画像センシングシンポジウム(SSII2024)</Link>に投稿しました。<br></br>
+                投稿内容は卒業研究の <Link to={"/blog/2024/03/11/2"}>「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与</Link>です。
             </>
         ),
     },
@@ -31,16 +32,16 @@ const news = [
         date: "2024-02-21",
         title: (
             <>
-                <a href="https://www.kyodo.co.jp/pr/2024-02-21_3840459/">
+                <Link to="https://www.kyodo.co.jp/pr/2024-02-21_3840459/">
                     共同通信社で「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」が紹介されました。
-                </a>
+                </Link>
             </>
         ),
         description: (
             <>
-                共著論文が
-                <a href="https://www.kyodo.co.jp/pr/2024-02-21_3840459/">「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」</a>
-                として紹介されました。 <br></br>
+                共著論文"Constructing Lightweight Large Vision-Language Model: A Target Approach to Downstream Tasks"が
+                <Link to="https://www.kyodo.co.jp/pr/2024-02-21_3840459/">「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」</Link>
+                として紹介されました。 <br></br>私は主に複数GPUでの高効率なマルチタスク学習(複数タスク・データセットでモデルを訓練する)方法の構築を担当しました。
             </>
         ),
     },
@@ -48,17 +49,17 @@ const news = [
         date: "2024-02-21",
         title: (
             <>
-                <a href="https://www.gifu-u.ac.jp/news/research/2024/02/entry21-13029.html">
+                <Link to="https://www.gifu-u.ac.jp/news/research/2024/02/entry21-13029.html">
                     岐阜大学の「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」で紹介されました。
-                </a>
+                </Link>
             </>
         ),
         description: (
             <>
-                共著論文が
-                <a href="https://www.gifu-u.ac.jp/news/research/2024/02/entry21-13029.html">
+                共著論文"Constructing Lightweight Large Vision-Language Model: A Target Approach to Downstream Tasks"が
+                <Link to="https://www.gifu-u.ac.jp/news/research/2024/02/entry21-13029.html">
                     「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」
-                </a>
+                </Link>
                 として共同通信社様に紹介されました。 <br></br>
                 私は主に複数GPUでの高効率なマルチタスク学習(複数タスク・データセットでモデルを訓練する)方法の構築を担当しました。
             </>
