@@ -138,6 +138,8 @@ export default function ProfileFeatures() {
                 <div className="container">
                     <h1 className="row padding-bottom--md">制作物 | Products</h1>
                     <ul>
+                        <li><h3><Link to="https://github.com/hyokonbanwa/ChatWith3DAgent">ChatWith3DAgent(3次元狐耳少女と会話できるアプリ)</Link></h3>
+                        UnityでVRM形式の3Dエージェントと会話できるアプリを制作しました。こだわった点は表情変化です。<br></br>エージェント(ChatGPT)が生成した文章をGoogleNaturalLanguage APIで感情分析してそれに対応した表情を再生させます。また、VOICEVOXによる音声再生も実装しています。</li>
                         <li><h3><Link to="https://hyokonbanwa.github.io/hiyori_live2d_voice.github.io/">二次元美少女を動かせるWebアプリ</Link></h3>
                         pixi-live2d-displayという描画ライブラリPixiJS上でLive2dキャラクターを動かせるライブラリを使用しました<br></br>
                 こだわった点はキャラクターが音声に応じて口パクする(VOICEVOX利用時のみ)ところです。<br></br>VOICEVOXを起動する場合は
