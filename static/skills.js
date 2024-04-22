@@ -7,7 +7,8 @@ const skills = [
     {
         icon: faPython,
         name: "Python | PyTorch",
-        description: [<>PythonとPyTorchを用いて深層学習の研究を行っています。</>],
+        description: [<>PythonとPyTorchを用いて深層学習の研究を行っています。</>,
+    <><Link to="/blog/2024/03/11/2">卒業研究の内容</Link></>],
     },
     {
         icon: faJs,
@@ -37,7 +38,7 @@ const skills = [
     {
         icon: faUnity,
         name: "Unity",
-        description: [<>Live2Dで動いてChatGPTで答えてくれるAIエージェントを作りました。</>, <>大学の授業でVRでできる滝行体験アプリを作りました。</>],
+        description: [<><Link to="https://github.com/hyokonbanwa/ChatWith3DAgent">3Dエージェントと会話ができるアプリ</Link>を作りました。</>, <>大学の授業でVRでできる滝行体験アプリを作りました。</>],
     },
     {
         icon: faDocker,
