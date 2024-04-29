@@ -170,11 +170,15 @@ const config = {
                         ],
                     },
                     {
-                        title: "所属",
+                        title: "制作物",
                         items: [
                             {
-                                label: "岐阜大学 加藤研究室",
-                                href: "http://www.cv.info.gifu-u.ac.jp/contents/members.html",
+                                label: "3Dモデル チャットアプリ",
+                                href: "https://github.com/hyokonbanwa/ChatWith3DAgent",
+                            },
+                            {
+                                label: "Live2DモデルWebアプリ",
+                                href: "https://hyokonbanwa.github.io/hiyori_live2d_voice.github.io/",
                             },
 
                             // {
@@ -189,7 +193,7 @@ const config = {
                     },
 
                     {
-                        title: "アカウント",
+                        title: "所属・アカウント",
                         items: [
                             // {
                             //     label: "Blog",
@@ -199,6 +203,10 @@ const config = {
                             //     label: "LabBase",
                             //     href: "https://compass.labbase.jp/",
                             // },
+                            {
+                                label: "岐阜大学 加藤研究室",
+                                href: "http://www.cv.info.gifu-u.ac.jp/contents/members.html",
+                            },
                             {
                                 label: "GitHub",
                                 href: "https://github.com/hyokonbanwa",
