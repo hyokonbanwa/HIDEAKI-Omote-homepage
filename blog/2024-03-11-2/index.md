@@ -16,6 +16,7 @@ date: 2024-03-11T18:00
 
 ![言語的説明+視覚的説明](./言語的説明+視覚的説明.png)
 
+<!--truncate-->
 
 　下記画像のようにマルチモーダルモデルのKosmos-2に画像と質問文と解答選択肢と画像内の物体の領域を入力し、根拠テキストとそれに含まれる物体の領域と解答を出力させることで研究のアイデアを実現しました。データセットは[**Visual Commonsense Reasoning**](https://openaccess.thecvf.com/content_CVPR_2019/html/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.html)という既存の領域付多選択式質問応答データセットを利用しました。
 ![VCR-CoTモデルへの入出力](./VCR-CoTモデルへの入出力.png)
