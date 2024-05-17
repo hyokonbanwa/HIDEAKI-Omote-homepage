@@ -4,12 +4,18 @@ const news = [
         date: "2024-05-16",
         title: (
             <>
-                <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=1&st=7id6v9cy&dl=0">投稿した論文がSSII2024に採択 & 【スポットライト発表】に選定されました。</Link>
+                <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=1&st=7id6v9cy&dl=0">
+                    投稿した論文がSSII2024に採択 & 【スポットライト発表】に選定されました。
+                </Link>
             </>
         ),
         description: (
             <>
-                卒業研究の研究成果を投稿したSSII2024に採択&<Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=1&st=7id6v9cy&dl=0">【スポットライト発表】</Link>に選定されました。(2日目 6月13日　C00044)
+                卒業研究の研究成果を投稿したSSII2024に採択&
+                <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=1&st=7id6v9cy&dl=0">
+                    【スポットライト発表】
+                </Link>
+                に選定されました。(2日目 6月13日　OS3-2 (IS3-2))
                 <br></br>※<Link to="https://confit.atlas.jp/guide/event/ssii2024/top">第30回画像センシングシンポジウム(SSII2024) </Link>
             </>
         ),
@@ -37,8 +43,10 @@ const news = [
         ),
         description: (
             <>
-                <Link to="https://confit.atlas.jp/guide/event/ssii2024/top?lang=ja">第30回画像センシングシンポジウム(SSII2024)</Link>に投稿しました。<br></br>
-                投稿内容は卒業研究の <Link to={"/blog/2024/03/11/2"}>「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与</Link>です。
+                <Link to="https://confit.atlas.jp/guide/event/ssii2024/top?lang=ja">第30回画像センシングシンポジウム(SSII2024)</Link>に投稿しました。
+                <br></br>
+                投稿内容は卒業研究の{" "}
+                <Link to={"/blog/2024/03/11/2"}>「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与</Link>です。
             </>
         ),
     },
@@ -55,7 +63,8 @@ const news = [
             <>
                 共著論文"Constructing Lightweight Large Vision-Language Model: A Target Approach to Downstream Tasks"が
                 <Link to="https://www.kyodo.co.jp/pr/2024-02-21_3840459/">「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」</Link>
-                として紹介されました。 <br></br>私は主に複数GPUでの高効率なマルチタスク学習(複数タスク・データセットでモデルを訓練する)方法の構築を担当しました。
+                として紹介されました。 <br></br>
+                私は主に複数GPUでの高効率なマルチタスク学習(複数タスク・データセットでモデルを訓練する)方法の構築を担当しました。
             </>
         ),
     },
