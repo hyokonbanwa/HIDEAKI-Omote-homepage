@@ -97,7 +97,6 @@ export default function ProfileFeatures() {
                 </div>
             </section>
 
-            
             <section className={styles.features}>
                 <div className="container">
                     <h1 className="row padding-bottom--md">経歴 | History</h1>
@@ -124,12 +123,29 @@ export default function ProfileFeatures() {
                     <h1 className="row padding-bottom--md">発表 | Publication</h1>
                     <h2 className="row padding-bottom--md">国内学会 | Domestic Conference</h2>
                     <ul>
-                        <li><Link to="https://www.tc-iaip.org/dia/2024/program.html#os3">軸屋敬介，梁瀬和哉，<u>表英輝</u>，土田裕登，加藤邦人: "大規模Vision&Languageマルチタスクモデルの学習効率化とHuman-Object Interactionへの適用"，動的画像処理実利用化ワークショップ DIA 2024，OS3-2 (IS3-2)，2024.3.5</Link></li>
-                        <li>(投稿中) <u>表英輝</u>，梁瀬 和哉，加藤 邦人: "物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与"，第30回画像センシングシンポジウム SSII 2024</li>
+                        <li>
+                            <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=2&st=7id6v9cy&dl=0">
+                                <u>表英輝</u>，梁瀬 和哉，加藤 邦人: "物体領域を用いたChain of
+                                Thoughtによるマルチモーダルモデルへの説明性の付与"，第30回画像センシングシンポジウム SSII 2024，SO2-07
+                                (IS2-07)，2024.6.13
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="https://www.tc-iaip.org/dia/2024/program.html#os3">
+                                軸屋敬介，梁瀬和哉，<u>表英輝</u>，土田裕登，加藤邦人:
+                                "大規模Vision&Languageマルチタスクモデルの学習効率化とHuman-Object
+                                Interactionへの適用"，動的画像処理実利用化ワークショップ DIA 2024，OS3-2 (IS3-2)，2024.3.5
+                            </Link>
+                        </li>
                     </ul>
                     <h2 className="row padding-bottom--md">国際学会 | International Conference</h2>
                     <ul>
-                        <li><Link to="https://sites.google.com/view/iw-fcv2024/conference">Kazuya Yanase，Keisuke Jikuya，<u>Hideaki Omote</u>，Hiroto Tsuchida，Kunihito Kato: "Constructing Lightweight Large Vision-Language Model: A Target Approach to Downstream Tasks"，IW-FCV 2024，OS6-1，2024.2.20</Link></li>
+                        <li>
+                            <Link to="https://sites.google.com/view/iw-fcv2024/conference">
+                                Kazuya Yanase，Keisuke Jikuya，<u>Hideaki Omote</u>，Hiroto Tsuchida，Kunihito Kato: "Constructing Lightweight Large
+                                Vision-Language Model: A Target Approach to Downstream Tasks"，IW-FCV 2024，OS6-1，2024.2.20
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -138,14 +154,35 @@ export default function ProfileFeatures() {
                 <div className="container">
                     <h1 className="row padding-bottom--md">制作物 | Products</h1>
                     <ul>
-                        <li><h3><Link to="https://github.com/hyokonbanwa/ChatWith3DAgent">ChatWith3DAgent(3次元狐耳少女と会話できるアプリ)</Link></h3>
-                        UnityでVRM形式の3Dエージェントと会話できるアプリを制作しました。こだわった点は表情変化です。<br></br>エージェント(ChatGPT)が生成した文章をGoogleNaturalLanguage APIで感情分析してそれに対応した表情を再生させます。また、VOICEVOXによる音声再生も実装しています。</li>
-                        <li><h3><Link to="https://hyokonbanwa.github.io/hiyori_live2d_voice.github.io/">二次元美少女を動かせるWebアプリ</Link></h3>
-                        pixi-live2d-displayという描画ライブラリPixiJS上でLive2dキャラクターを動かせるライブラリを使用しました<br></br>
-                こだわった点はキャラクターが音声に応じて口パクする(VOICEVOX利用時のみ)ところです。<br></br>VOICEVOXを起動する場合は
-                <Link to="https://note.com/natukichan/n/n016bcd171da0">なつきちゃん様の記事(https://note.com/natukichan/n/n016bcd171da0)</Link>を参考にしていただきCORS Policy
-                Modeをallにする必要があります。<br></br> ソースコード：<Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/IndexLibrary.ts">TypeScritファイル</Link>、<Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/App.ts">HTMLファイル</Link>
-                <br></br>もともと<Link to="https://www.qualtrics.com/jp/">Qualtrics</Link>というアンケートサイトで動かすアプリのひな形として作成したのですが、QusltricsのJavaScriptに対する<Link to="https://community.qualtrics.com/custom-code-12/how-can-i-upload-custom-js-files-to-the-library-so-that-they-can-be-referred-to-the-survey-5527">制限</Link>が多く、CDN経由でビルドしたJSファイルを<Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/quarltrics.js">Qualtrics上で読み込む方式</Link>にしたためとても煩雑なコードとなりました。</li>
+                        <li>
+                            <h3>
+                                <Link to="https://github.com/hyokonbanwa/ChatWith3DAgent">ChatWith3DAgent(3次元狐耳少女と会話できるアプリ)</Link>
+                            </h3>
+                            UnityでVRM形式の3Dエージェントと会話できるアプリを制作しました。こだわった点は表情変化です。<br></br>
+                            エージェント(ChatGPT)が生成した文章をGoogleNaturalLanguage
+                            APIで感情分析してそれに対応した表情を再生させます。また、VOICEVOXによる音声再生も実装しています。
+                        </li>
+                        <li>
+                            <h3>
+                                <Link to="https://hyokonbanwa.github.io/hiyori_live2d_voice.github.io/">二次元美少女を動かせるWebアプリ</Link>
+                            </h3>
+                            pixi-live2d-displayという描画ライブラリPixiJS上でLive2dキャラクターを動かせるライブラリを使用しました<br></br>
+                            こだわった点はキャラクターが音声に応じて口パクする(VOICEVOX利用時のみ)ところです。<br></br>VOICEVOXを起動する場合は
+                            <Link to="https://note.com/natukichan/n/n016bcd171da0">
+                                なつきちゃん様の記事(https://note.com/natukichan/n/n016bcd171da0)
+                            </Link>
+                            を参考にしていただきCORS Policy Modeをallにする必要があります。<br></br> ソースコード：
+                            <Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/IndexLibrary.ts">TypeScritファイル</Link>、
+                            <Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/App.ts">HTMLファイル</Link>
+                            <br></br>もともと<Link to="https://www.qualtrics.com/jp/">Qualtrics</Link>
+                            というアンケートサイトで動かすアプリのひな形として作成したのですが、QusltricsのJavaScriptに対する
+                            <Link to="https://community.qualtrics.com/custom-code-12/how-can-i-upload-custom-js-files-to-the-library-so-that-they-can-be-referred-to-the-survey-5527">
+                                制限
+                            </Link>
+                            が多く、CDN経由でビルドしたJSファイルを
+                            <Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/quarltrics.js">Qualtrics上で読み込む方式</Link>
+                            にしたためとても煩雑なコードとなりました。
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -195,8 +232,6 @@ export default function ProfileFeatures() {
       </Swiper> */}
             {/* </div>
             </section> */}
-
-
         </>
     );
 }
