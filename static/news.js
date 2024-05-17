@@ -63,7 +63,7 @@ const news = [
             <>
                 共著論文"Constructing Lightweight Large Vision-Language Model: A Target Approach to Downstream Tasks"が
                 <Link to="https://www.kyodo.co.jp/pr/2024-02-21_3840459/">「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」</Link>
-                として紹介されました。 <br></br>
+                として共同通信社様に紹介されました。 <br></br>
                 私は主に複数GPUでの高効率なマルチタスク学習(複数タスク・データセットでモデルを訓練する)方法の構築を担当しました。
             </>
         ),
@@ -83,7 +83,7 @@ const news = [
                 <Link to="https://www.gifu-u.ac.jp/news/research/2024/02/entry21-13029.html">
                     「低価格コンピュータで学習＆推論可能なAI基盤モデルを開発」
                 </Link>
-                として共同通信社様に紹介されました。 <br></br>
+                として岐阜大学公式サイトで紹介されました。 <br></br>
                 私は主に複数GPUでの高効率なマルチタスク学習(複数タスク・データセットでモデルを訓練する)方法の構築を担当しました。
             </>
         ),
