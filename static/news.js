@@ -15,7 +15,7 @@ const news = [
                 <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=1&st=7id6v9cy&dl=0">
                     【スポットライト発表】
                 </Link>
-                に選定されました。(2日目 6月13日　OS3-2 (IS3-2))
+                に選定されました。(2日目 6月13日　SO2-06・IS2-06)
                 <br></br>※<Link to="https://confit.atlas.jp/guide/event/ssii2024/top">第30回画像センシングシンポジウム(SSII2024) </Link>
             </>
         ),
