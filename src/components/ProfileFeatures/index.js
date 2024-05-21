@@ -124,7 +124,7 @@ export default function ProfileFeatures() {
                     <h2 className="row padding-bottom--md">国内学会 | Domestic Conference</h2>
                     <ul>
                         <li>
-                            <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=2&st=7id6v9cy&dl=0">
+                            <Link to="https://www.ssii.jp/ssii/files/2024/SSII2024_program_temp_20240517.pdf">
                                 <u>表英輝</u>，梁瀬 和哉，加藤 邦人: "物体領域を用いたChain of
                                 Thoughtによるマルチモーダルモデルへの説明性の付与"，第30回画像センシングシンポジウム SSII 2024，SO2-06
                                 (IS2-06)，2024.6.13

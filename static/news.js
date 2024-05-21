@@ -4,7 +4,7 @@ const news = [
         date: "2024-05-16",
         title: (
             <>
-                <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=1&st=7id6v9cy&dl=0">
+                <Link to="https://www.ssii.jp/ssii/files/2024/SSII2024_program_temp_20240517.pdf">
                     投稿した論文がSSII2024に採択 & 【スポットライト発表】に選定されました。
                 </Link>
             </>
@@ -12,9 +12,7 @@ const news = [
         description: (
             <>
                 卒業研究の研究成果を投稿したSSII2024に採択&
-                <Link to="https://www.dropbox.com/scl/fi/6art4f221o27yypt2lx0o/SSII2024_.xlsx?rlkey=4kk9wckaqgijpkloej7t5db30&e=1&st=7id6v9cy&dl=0">
-                    【スポットライト発表】
-                </Link>
+                <Link to="https://www.ssii.jp/ssii/files/2024/SSII2024_program_temp_20240517.pdf">【スポットライト発表】</Link>
                 に選定されました。(2日目 6月13日　SO2-06・IS2-06)
                 <br></br>※<Link to="https://confit.atlas.jp/guide/event/ssii2024/top">第30回画像センシングシンポジウム(SSII2024) </Link>
             </>
