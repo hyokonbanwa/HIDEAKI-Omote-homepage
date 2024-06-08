@@ -13,7 +13,9 @@ const news = [
             <>
                 卒業研究の研究成果を投稿したSSII2024に採択&
                 <Link to="https://confit.atlas.jp/guide/event/ssii2024/subject/SO2-06/category?cryptoId=">【スポットライト発表】</Link>
-                に選定されました。(2日目 6月13日　SO2-06・IS2-06)
+                （口頭発表）に選定されました。また、
+                <Link to="https://confit.atlas.jp/guide/event/ssii2024/subject/IS2-06/category?cryptoId=">【インタラクティブセッション】</Link>
+                では対面でポスターを交えで研究紹介を行う予定です。(SSII20242日目 6月13日　SO2-06・IS2-06)
                 <br></br>※<Link to="https://confit.atlas.jp/guide/event/ssii2024/top">第30回画像センシングシンポジウム(SSII2024) </Link>
             </>
         ),

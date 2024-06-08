@@ -124,7 +124,7 @@ export default function ProfileFeatures() {
                     <h2 className="row padding-bottom--md">国内学会 | Domestic Conference</h2>
                     <ul>
                         <li>
-                            <Link to="https://www.ssii.jp/ssii/files/2024/SSII2024_program_temp_20240517.pdf">
+                            <Link to="https://confit.atlas.jp/guide/event/ssii2024/subject/SO2-06/category?cryptoId=">
                                 <u>表英輝</u>，梁瀬 和哉，加藤 邦人: "物体領域を用いたChain of
                                 Thoughtによるマルチモーダルモデルへの説明性の付与"，第30回画像センシングシンポジウム SSII 2024，SO2-06
                                 (IS2-06)，2024.6.13
@@ -167,7 +167,8 @@ export default function ProfileFeatures() {
                                 <Link to="https://hyokonbanwa.github.io/hiyori_live2d_voice.github.io/">二次元美少女を動かせるWebアプリ</Link>
                             </h3>
                             pixi-live2d-displayという描画ライブラリPixiJS上でLive2dキャラクターを動かせるライブラリを使用しました<br></br>
-                            こだわった点はキャラクターが音声に応じて口パクする(VOICEVOX利用時のみ)ところです。<br></br>VOICEVOXを起動する場合は
+                            こだわった点はキャラクターが音声の音量に応じて口パクの大きさを変える(VOICEVOX利用時のみ)ところです。<br></br>
+                            VOICEVOXを起動する場合は
                             <Link to="https://note.com/natukichan/n/n016bcd171da0">
                                 なつきちゃん様の記事(https://note.com/natukichan/n/n016bcd171da0)
                             </Link>
