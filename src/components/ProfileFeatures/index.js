@@ -141,7 +141,7 @@ export default function ProfileFeatures() {
                     <h2 className="row padding-bottom--md">国際学会 | International Conference</h2>
                     <ul>
                         <li>
-                            <Link to="https://sites.google.com/view/iw-fcv2024/conference">
+                            <Link to="https://sites.google.com/view/iw-fcv2024/conference#h.xtqndf4telz0">
                                 Kazuya Yanase，Keisuke Jikuya，<u>Hideaki Omote</u>，Hiroto Tsuchida，Kunihito Kato: "Constructing Lightweight Large
                                 Vision-Language Model: A Target Approach to Downstream Tasks"，IW-FCV 2024，OS6-1，2024.2.20
                             </Link>
