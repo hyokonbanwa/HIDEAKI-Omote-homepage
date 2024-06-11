@@ -42,7 +42,7 @@ import Link from "@docusaurus/Link"
 * [MMC4](https://arxiv.org/abs/2304.06939)のインターリーブデータ例
 ![インター](Interleaved.png)
 
-　**モデル構造**は以下のように画像エンコーダーをResampler(Projector)で言語空間にマッピングして言語デコーダーに入力する構造にするつもりです。図中の画像エンコーダーとProjectorはすべて同じ重みと構造を持ちます。画像エンコーダーはCLIPやDINOやSigLIP等のVitエンコーダー、言語デコーダーはLlama系列、Phi-3等のTransformerデコーダーを使用することを考えています。
+　**モデル構造**は以下のように画像エンコーダーをResampler(Projector)で言語空間にマッピングして言語デコーダーに入力する構造にするつもりです。図中の画像エンコーダーとProjectorはすべて同じ重みと構造を持ちます。画像エンコーダーはCLIPやDINOやSigLIP等のVitエンコーダー、言語デコーダーはLlama系列やPhi-3等のTransformerデコーダーを使用することを考えています。
 
 ![モデル](モデル.png)
 
