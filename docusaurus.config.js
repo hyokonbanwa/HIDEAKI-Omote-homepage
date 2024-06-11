@@ -25,7 +25,7 @@ const config = {
     projectName: "HIDEAKI-Omote-homepage", // Usually your repo name.
     trailingSlash: false,
 
-    onBrokenLinks: "ignore",
+    onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
 
     // Even if you don't use internationalization, you can use this field to set

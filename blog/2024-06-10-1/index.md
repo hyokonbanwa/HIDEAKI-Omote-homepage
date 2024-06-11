@@ -52,11 +52,11 @@ import Link from "@docusaurus/Link"
     * 画像を周波数空間で処理：　 [DocPedia](https://arxiv.org/abs/2311.11810) (2560x2560)
     * **分割した画像をViTに入力し出力を結合**： [MM1](https://arxiv.org/abs/2403.09611)(1792×1792)、[S2-Wrapper](https://arxiv.org/abs/2403.13043)、[LLaVA-UHD](https://arxiv.org/abs/2403.11703)
 2. 複数の画像エンコーダーの特徴量を利用
-    * CLIP+DINOv2：　[Eyes Wide Shut? ](https://arxiv.org/abs/2401.06209)、[COMM]((https://arxiv.org/abs/2310.08825))
+    * CLIP+DINOv2：　[Eyes Wide Shut? ](https://arxiv.org/abs/2401.06209)、[COMM](https://arxiv.org/abs/2310.08825)
     * CLIP+Resnet：　[Embodied GPT](https://arxiv.org/abs/2305.15021)
 3. 複数層の画像特徴量を利用
     * CLIPの浅い層から深い層の5層分の特徴：　[ViP-LLaVA](https://arxiv.org/abs/2312.00784)
-    * **CLIPとDINOの複数層の特徴**：　[COMM]((https://arxiv.org/abs/2310.08825))
+    * **CLIPとDINOの複数層の特徴**：　[COMM](https://arxiv.org/abs/2310.08825)
 4. 言語Decoderに直接画像入力
     * 画像パッチをそのままDecoderに入力：　[Otter-HD](https://arxiv.org/abs/2311.04219)、[Fuyu-8B](https://www.adept.ai/blog/fuyu-8b)
 5. 可変解像度・アスペクト比対応
