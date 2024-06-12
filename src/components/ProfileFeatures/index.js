@@ -85,11 +85,22 @@ export default function ProfileFeatures() {
                         <li>名前：表 英輝</li>
                         <li>所属：岐阜大学院　自然科学技術研究科　知能理工学専攻　加藤研究室</li>
                         <li>学年：修士1年(M1)</li>
-                        <li>研究内容：</li>
+                        <li>研究内容解説：</li>
                         <ul>
                             <li>
+                                <Link to={"/blog/2024/06/10/1"}>
+                                    現在の研究内容「複数画像でのIn-Context Learning(ICL)が可能なマルチモーダルモデルの構築」
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={"/blog/2024/06/09/index"}>
+                                    チーム研究「大規模Vision&Languageマルチタスクモデルの学習効率化とHuman-Object Interactionへの適用」(DIA2024の共著論文)
+                                    <br></br>及び「Constructing Lightweight Large Vision-LanguageModel: A Target Approach to Downstream Tasks」(IW-FCV2024の共著論文)
+                                </Link>
+                            </li>
+                            <li>
                                 <Link to={"/blog/2024/03/11/2"}>
-                                    卒業研究「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与」
+                                    卒業研究「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与」(SSII2024へ投稿し採択&スポットライト論文に選定)
                                 </Link>
                             </li>
                         </ul>
@@ -174,7 +185,7 @@ export default function ProfileFeatures() {
                             </Link>
                             を参考にしていただきCORS Policy Modeをallにする必要があります。<br></br> ソースコード：
                             <Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/IndexLibrary.ts">TypeScritファイル</Link>、
-                            <Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/app/App.ts">HTMLファイル</Link>
+                            <Link to="https://github.com/hyokonbanwa/PixiJsTest/blob/main/src/templates/index.html">HTMLファイル</Link>
                             <br></br>もともと<Link to="https://www.qualtrics.com/jp/">Qualtrics</Link>
                             というアンケートサイトで動かすアプリのひな形として作成したのですが、QusltricsのJavaScriptに対する
                             <Link to="https://community.qualtrics.com/custom-code-12/how-can-i-upload-custom-js-files-to-the-library-so-that-they-can-be-referred-to-the-survey-5527">
