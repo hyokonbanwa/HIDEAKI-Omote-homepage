@@ -40,35 +40,35 @@ import Link from "@docusaurus/Link"
 　**データセット**は画像と言語が入り混じったデータであるインターリーブデータを取り入れるつもりです。下記のように1データ=「テキストA、画像1、テキストB、テキストC、画像2、テキストD」のような形になっています。
 
 * [MMC4](https://arxiv.org/abs/2304.06939)のインターリーブデータ例
-![インター](インター.png)
+![インター](Interleaved.png)
 
-　**モデル構造**は以下のように画像エンコーダーをResampler(Projector)で言語空間にマッピングして言語デコーダーに入力する構造にするつもりです。図中の画像エンコーダーとProjectorはすべて同じ重みと構造を持ちます。画像エンコーダーはCLIPやDINOやSigLIP等のVitエンコーダー、言語デコーダーはLlama系列、Phi-3等のTransformerデコーダーを使用することを考えています。
+　**モデル構造**は以下のように画像エンコーダーをResampler(Projector)で言語空間にマッピングして言語デコーダーに入力する構造にするつもりです。図中の画像エンコーダーとProjectorはすべて同じ重みと構造を持ちます。画像エンコーダーはCLIPやDINOやSigLIP等のVitエンコーダー、言語デコーダーはLlama系列やPhi-3等のTransformerデコーダーを使用することを考えています。
 
 ![モデル](モデル.png)
 
 　**画像の細部を見る手法**には以下のようなものがあります。
 1. 高解像度画像を処理
-    * ViTの解像度を上げる：　PaLI-X(768x768)、Qwen-VL
-    * 画像を周波数空間で処理：　 DocPedia (2560x2560)
-    * **分割した画像をViTに入力し出力を結合**：MM1(1792×1792)、S2-Wrapper、LLaVA-UHD
+    * ViTの解像度を上げる：　[PaLI-X](https://arxiv.org/abs/2305.18565)(768x768)、[Qwen-VL](https://arxiv.org/abs/2308.12966)
+    * 画像を周波数空間で処理：　 [DocPedia](https://arxiv.org/abs/2311.11810) (2560x2560)
+    * **分割した画像をViTに入力し出力を結合**： [MM1](https://arxiv.org/abs/2403.09611)(1792×1792)、[S2-Wrapper](https://arxiv.org/abs/2403.13043)、[LLaVA-UHD](https://arxiv.org/abs/2403.11703)
 2. 複数の画像エンコーダーの特徴量を利用
-    * CLIP+DINOv2：　Eyes Wide Shut? 、COMM
-    * CLIP+Resnet：　Embodied GPT
+    * CLIP+DINOv2：　[Eyes Wide Shut? ](https://arxiv.org/abs/2401.06209)、[COMM](https://arxiv.org/abs/2310.08825)
+    * CLIP+Resnet：　[Embodied GPT](https://arxiv.org/abs/2305.15021)
 3. 複数層の画像特徴量を利用
-    * CLIPの浅い層から深い層の5層分の特徴：　ViP-LLaVA
-    * **CLIPとDINOの複数層の特徴**：　COMM
+    * CLIPの浅い層から深い層の5層分の特徴：　[ViP-LLaVA](https://arxiv.org/abs/2312.00784)
+    * **CLIPとDINOの複数層の特徴**：　[COMM](https://arxiv.org/abs/2310.08825)
 4. 言語Decoderに直接画像入力
-    * 画像パッチをそのままDecoderに入力：　Otter-HD、Fuyu-8B
+    * 画像パッチをそのままDecoderに入力：　[Otter-HD](https://arxiv.org/abs/2311.04219)、[Fuyu-8B](https://www.adept.ai/blog/fuyu-8b)
 5. 可変解像度・アスペクト比対応
-    * 解像度に比例して画像トークン数を増やす：NaViT、SORA、Idefics2
+    * 解像度に比例して画像トークン数を増やす：  [Idefics2](https://arxiv.org/abs/2405.02246)、[NaViT](https://arxiv.org/abs/2307.06304)、[SORA](https://openai.com/index/video-generation-models-as-world-simulators/#fn-19)
 
 以下に1.と3.の例を載せます。
 
-* 1.**S2-Wrapper**：高解像度画像を分割してViTで処理して結合
+* 1.[**S2-Wrapper**](https://arxiv.org/abs/2403.13043)：高解像度画像を分割してViTで処理して結合
 
 ![S2](S2.png)
 
-* 3.**COMM**：複数の画像エンコーダー・複数層の画像特徴量
+* 3.[**COMM**](https://arxiv.org/abs/2310.08825)：複数の画像エンコーダー・複数層の画像特徴量
 
 ![COMM](COMM.png)
 
@@ -79,6 +79,7 @@ import Link from "@docusaurus/Link"
 3. 場合によっては個別タスクごとの「**ファインチューニング**」
 
 * マルチタスク学習の例
+
 ![マルチタスク](マルチタスク学習.png)
 
 以上まだ調査の段階ですが、今後具体的な実装・実験を行っていきたいと思います。
