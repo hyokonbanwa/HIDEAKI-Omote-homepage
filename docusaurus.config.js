@@ -106,6 +106,11 @@ const config = {
                         label: "GitHub",
                         position: "right",
                     },
+                    {
+                        href: "https://x.com/hideaki_o",
+                        label: "X(旧Twitter)",
+                        position: "right",
+                    },
                 ],
             },
             footer: {
@@ -210,6 +215,10 @@ const config = {
                             {
                                 label: "GitHub",
                                 href: "https://github.com/hyokonbanwa",
+                            },
+                            {
+                                label: "X(旧Twitter)",
+                                href: "https://x.com/hideaki_o",
                             },
                         ],
                     },
