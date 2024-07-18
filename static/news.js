@@ -1,6 +1,20 @@
 import Link from "@docusaurus/Link";
 const news = [
     {
+        date: "2024-07-12",
+        title: (
+            <>
+                <Link to="https://x.com/hideaki_o">X(旧Twitter)の運用を開始しました。</Link>
+            </>
+        ),
+        description: (
+            <>
+                X(旧Twitter)アカウント作成以来運用していませんでしたが、夏季インターンシップに合わせて運用開始したいと思います。
+                <br></br>アカウント：<Link to="https://x.com/hideaki_o">@hideaki_o</Link>
+            </>
+        ),
+    },
+    {
         date: "2024-05-16",
         title: (
             <>
