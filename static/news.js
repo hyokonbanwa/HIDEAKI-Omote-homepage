@@ -1,6 +1,21 @@
 import Link from "@docusaurus/Link";
 const news = [
     {
+        date: "2024-08-06",
+        title: (
+            <>
+                <Link to="https://www.sbintuitions.co.jp/">SB Intuitions株式会社のインターンシップに参加 (2024年8月1日~2024年9月30日)</Link>
+            </>
+        ),
+        description: (
+            <>
+                8/1から<Link to="https://www.sbintuitions.co.jp/">SB Intuitions株式会社</Link>
+                のインターンシップに参加させていただいております。<br></br>
+                9/30までの約2ヶ月間、マルチモーダル基盤モデル、特にビジョン＆ランゲージモデル（VLM）に関して研究開発を行う予定です。
+            </>
+        ),
+    },
+    {
         date: "2024-07-12",
         title: (
             <>
