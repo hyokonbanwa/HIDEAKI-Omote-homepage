@@ -1,6 +1,29 @@
 import Link from "@docusaurus/Link";
 const news = [
     {
+        date: "2024-11-12",
+        title: (
+            <>
+                <Link to="https://www.tc-iaip.org/view/2024/program.html#is4:~:text=%E5%85%88%E7%AB%AF%E2%BC%A4%EF%BC%89%EF%BC%8C%E5%A0%80%E2%BD%A5%C2%A0%E2%BC%80%E5%BC%98%EF%BC%88%E5%90%8D%E5%9F%8E%E2%BC%A4%EF%BC%89-,IS4%2D5,-%E2%BD%82%E6%9B%B8%E7%94%BB%E5%83%8F%E7%90%86%E8%A7%A3">
+                    国内学会ViEW2024にインターンシップの研究成果が採択（12/6 IS4-5）
+                </Link>
+            </>
+        ),
+        description: (
+            <>
+                <Link to="https://www.tc-iaip.org/view/2024/program.html#is4:~:text=%E5%85%88%E7%AB%AF%E2%BC%A4%EF%BC%89%EF%BC%8C%E5%A0%80%E2%BD%A5%C2%A0%E2%BC%80%E5%BC%98%EF%BC%88%E5%90%8D%E5%9F%8E%E2%BC%A4%EF%BC%89-,IS4%2D5,-%E2%BD%82%E6%9B%B8%E7%94%BB%E5%83%8F%E7%90%86%E8%A7%A3">
+                    国内学会ViEW2024
+                </Link>
+                に 8/1から9/30まで参加した
+                <Link to="https://www.sbintuitions.co.jp/">SB Intuitions株式会社</Link>
+                のインターンシップの研究成果が採択されました。<br></br>
+                「⽂書画像理解性能向上に向けた視覚⾔語モデル構築⽅法の検討」というタイトルで12/6にIS4-5で発表予定です。
+                <br></br>
+                内容は文書画像理解を下流タスクとして、性能を発揮できるVLMのモデル構造や学習方法の比較実験を行いました。
+            </>
+        ),
+    },
+    {
         date: "2024-08-06",
         title: (
             <>
