@@ -94,13 +94,16 @@ export default function ProfileFeatures() {
                             </li>
                             <li>
                                 <Link to={"/blog/2024/06/09/index"}>
-                                    チーム研究「大規模Vision&Languageマルチタスクモデルの学習効率化とHuman-Object Interactionへの適用」(DIA2024の共著論文)
-                                    <br></br>及び「Constructing Lightweight Large Vision-LanguageModel: A Target Approach to Downstream Tasks」(IW-FCV2024の共著論文)
+                                    チーム研究「大規模Vision&Languageマルチタスクモデルの学習効率化とHuman-Object
+                                    Interactionへの適用」(DIA2024の共著論文)
+                                    <br></br>及び「Constructing Lightweight Large Vision-LanguageModel: A Target Approach to Downstream
+                                    Tasks」(IW-FCV2024の共著論文)
                                 </Link>
                             </li>
                             <li>
                                 <Link to={"/blog/2024/03/11/2"}>
-                                    卒業研究「物体領域を用いたChain of Thoughtによるマルチモーダルモデルへの説明性の付与」(SSII2024へ投稿し採択&スポットライト論文に選定)
+                                    卒業研究「物体領域を用いたChain of
+                                    Thoughtによるマルチモーダルモデルへの説明性の付与」(SSII2024へ投稿し採択&スポットライト論文に選定)
                                 </Link>
                             </li>
                         </ul>
@@ -134,6 +137,13 @@ export default function ProfileFeatures() {
                     <h1 className="row padding-bottom--md">発表 | Publication</h1>
                     <h2 className="row padding-bottom--md">国内学会 | Domestic Conference</h2>
                     <ul>
+                        <li>
+                            <Link to="https://www.tc-iaip.org/view/2024/program.html#is4">
+                                <u>表英輝</u>，鈴木哲平: "⽂書画像理解性能向上に向けた視覚⾔語モデル構築⽅法の検討"，
+                                ビジョン技術の実利用ワークショップ2024 ViEW2024，IS4-5，2024.12.6，
+                                <br></br>※SB Intuitions株式会社でのインターンシップの成果
+                            </Link>
+                        </li>
                         <li>
                             <Link to="https://confit.atlas.jp/guide/event/ssii2024/subject/SO2-06/category?cryptoId=">
                                 <u>表英輝</u>，梁瀬 和哉，加藤 邦人: "物体領域を用いたChain of
