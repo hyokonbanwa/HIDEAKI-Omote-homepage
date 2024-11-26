@@ -141,7 +141,7 @@ export default function ProfileFeatures() {
                             <Link to="https://www.tc-iaip.org/view/2024/program.html#is4">
                                 <u>表英輝</u>，鈴木哲平: "⽂書画像理解性能向上に向けた視覚⾔語モデル構築⽅法の検討"，
                                 ビジョン技術の実利用ワークショップ2024 ViEW2024，IS4-5，2024.12.6，
-                                <br></br>※SB Intuitions株式会社でのインターンシップの成果
+                                <br></br><Link to="https://x.com/sbintuitions/status/1859869504240746794">※SB Intuitions株式会社でのインターンシップの成果</Link>
                             </Link>
                         </li>
                         <li>
@@ -170,7 +170,27 @@ export default function ProfileFeatures() {
                     </ul>
                 </div>
             </section>
-
+            <section className={styles.features}>
+                <div className="container">
+                    <h1 className="row padding-bottom--md">インターンシップ参加 | Internship</h1>
+                    <ul>
+                        <li>
+                            <h3>
+                                <Link to="https://www.sbintuitions.co.jp/">SB Intuitions株式会社</Link>
+                            </h3>
+                            <b>期間</b>: 2024年8月1日～2024年9月30日<br></br>
+                            <b>実施テーマ</b>: 「高解像度文書画像理解に向けたVLM(画像と言語を理解できるAIモデル)の構築・研究開発」<br></br>
+                            <b>URL</b>: <Link to="https://x.com/sbintuitions/status/1859869504240746794">https://x.com/sbintuitions/status/1859869504240746794</Link><br></br>
+                            <b>実施内容</b>:  文書画像に関して認識応答できるAIモデルは需要があり、これは画像を認識し言語で応答できるVLM(Vision and Language Model)で実現可能です。
+                            そのため、文書画像理解に有用なVLMの構築方法を比較検討しました。
+                            具体的には、VLMの画像エンコーダーとしてViTとCNNの異なるアーキテクチャを採用した場合の比較、
+                            画像エンコーダーへの入力解像度を上げての比較、画像エンコーダーのパラメータ更新の有無の比較などを行いました。
+                            研究成果は国内学会のViEW2024に投稿し発表予定です。<br></br>
+                            <b>使用スキル</b>: PythonとPyTorchを用いたVLMモデルのコーディング、Slurmを使用したVLMの分散並列学習、GiT・GitHubを使用した複数人でのコード開発・管理
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <section className={styles.features}>
                 <div className="container">
                     <h1 className="row padding-bottom--md">制作物 | Products</h1>

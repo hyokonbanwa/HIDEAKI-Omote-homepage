@@ -1,6 +1,7 @@
 import Link from "@docusaurus/Link";
 const news = [
     {
+        
         date: "2024-11-12",
         title: (
             <>
@@ -15,7 +16,7 @@ const news = [
                     国内学会ViEW2024
                 </Link>
                 に 8/1から9/30まで参加した
-                <Link to="https://www.sbintuitions.co.jp/">SB Intuitions株式会社</Link>
+                <Link to="https://x.com/sbintuitions/status/1859869504240746794">SB Intuitions株式会社</Link>
                 のインターンシップの研究成果が採択されました。<br></br>
                 「⽂書画像理解性能向上に向けた視覚⾔語モデル構築⽅法の検討」というタイトルで12/6にIS4-5で発表予定です。
                 <br></br>
@@ -27,12 +28,12 @@ const news = [
         date: "2024-08-06",
         title: (
             <>
-                <Link to="https://www.sbintuitions.co.jp/">SB Intuitions株式会社のインターンシップに参加 (2024年8月1日~2024年9月30日)</Link>
+                <Link to="https://x.com/sbintuitions/status/1859869504240746794">SB Intuitions株式会社のインターンシップに参加 (2024年8月1日~2024年9月30日)</Link>
             </>
         ),
         description: (
             <>
-                8/1から<Link to="https://www.sbintuitions.co.jp/">SB Intuitions株式会社</Link>
+                8/1から<Link to="https://x.com/sbintuitions/status/1859869504240746794">SB Intuitions株式会社</Link>
                 のインターンシップに参加させていただいております。<br></br>
                 9/30までの約2ヶ月間、マルチモーダル基盤モデル、特にビジョン＆ランゲージモデル（VLM）に関して研究開発を行う予定です。
             </>
