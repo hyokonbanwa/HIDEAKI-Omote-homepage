@@ -88,8 +88,8 @@ export default function ProfileFeatures() {
                         <li>研究内容解説：</li>
                         <ul>
                             <li>
-                                <Link to={"/blog/2024/06/10/1"}>
-                                    現在の研究内容「複数画像でのIn-Context Learning(ICL)が可能なマルチモーダルモデルの構築」
+                                <Link to={"/blog/2025/01/18/index"}>
+                                    修士での研究内容「距離反比例ラベルとGEM損失関数を用いた視覚言語モデルを物体検出を伴う下流タスクにより効果的に適応させるファインチューニング手法の提案」」
                                 </Link>
                             </li>
                             <li>
@@ -141,7 +141,10 @@ export default function ProfileFeatures() {
                             <Link to="https://www.tc-iaip.org/view/2024/program.html#is4">
                                 <u>表英輝</u>，鈴木哲平: "⽂書画像理解性能向上に向けた視覚⾔語モデル構築⽅法の検討"，
                                 ビジョン技術の実利用ワークショップ2024 ViEW2024，IS4-5，2024.12.6，
-                                <br></br><Link to="https://x.com/sbintuitions/status/1859869504240746794">※SB Intuitions株式会社でのインターンシップの成果</Link>
+                                <br></br>
+                                <Link to="https://x.com/sbintuitions/status/1859869504240746794">
+                                    ※SB Intuitions株式会社でのインターンシップの成果
+                                </Link>
                             </Link>
                         </li>
                         <li>
@@ -180,13 +183,18 @@ export default function ProfileFeatures() {
                             </h3>
                             <b>期間</b>: 2024年8月1日～2024年9月30日<br></br>
                             <b>実施テーマ</b>: 「高解像度文書画像理解に向けたVLM(画像と言語を理解できるAIモデル)の構築・研究開発」<br></br>
-                            <b>URL</b>: <Link to="https://x.com/sbintuitions/status/1859869504240746794">https://x.com/sbintuitions/status/1859869504240746794</Link><br></br>
-                            <b>実施内容</b>:  文書画像に関して認識応答できるAIモデルは需要があり、これは画像を認識し言語で応答できるVLM(Vision and Language Model)で実現可能です。
-                            そのため、文書画像理解に有用なVLMの構築方法を比較検討しました。
+                            <b>URL</b>:{" "}
+                            <Link to="https://x.com/sbintuitions/status/1859869504240746794">
+                                https://x.com/sbintuitions/status/1859869504240746794
+                            </Link>
+                            <br></br>
+                            <b>実施内容</b>: 文書画像に関して認識応答できるAIモデルは需要があり、これは画像を認識し言語で応答できるVLM(Vision and
+                            Language Model)で実現可能です。 そのため、文書画像理解に有用なVLMの構築方法を比較検討しました。
                             具体的には、VLMの画像エンコーダーとしてViTとCNNの異なるアーキテクチャを採用した場合の比較、
                             画像エンコーダーへの入力解像度を上げての比較、画像エンコーダーのパラメータ更新の有無の比較などを行いました。
                             研究成果は国内学会のViEW2024に投稿し発表予定です。<br></br>
-                            <b>使用スキル</b>: PythonとPyTorchを用いたVLMモデルのコーディング、Slurmを使用したVLMの分散並列学習、GiT・GitHubを使用した複数人でのコード開発・管理
+                            <b>使用スキル</b>:
+                            PythonとPyTorchを用いたVLMモデルのコーディング、Slurmを使用したVLMの分散並列学習、GiT・GitHubを使用した複数人でのコード開発・管理
                         </li>
                     </ul>
                 </div>
