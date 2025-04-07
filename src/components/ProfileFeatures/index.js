@@ -84,7 +84,7 @@ export default function ProfileFeatures() {
                     <ul>
                         <li>名前：表 英輝</li>
                         <li>所属：岐阜大学院　自然科学技術研究科　知能理工学専攻　加藤研究室</li>
-                        <li>学年：修士1年(M1)</li>
+                        <li>学年：修士2年(M2)</li>
                         <li>研究内容解説：</li>
                         <ul>
                             <li>
