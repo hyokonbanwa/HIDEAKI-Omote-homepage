@@ -88,8 +88,8 @@ export default function ProfileFeatures() {
                         <li>研究内容解説：</li>
                         <ul>
                             <li>
-                                <Link to={"/blog/2025/01/18/index"}>
-                                    修士での研究内容「距離反比例ラベルとGEM損失関数を用いた視覚言語モデルを物体検出を伴う下流タスクにより効果的に適応させるファインチューニング手法の提案」」
+                                <Link to={"/blog/2024/06/10/1"}>
+                                    修士での研究内容「複数画像でのIn-Context Learning(ICL)が可能なマルチモーダルモデルの構築」」
                                 </Link>
                             </li>
                             <li>
